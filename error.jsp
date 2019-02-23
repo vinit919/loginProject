@@ -6,6 +6,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Contact Administration</h1>
+	<h2>Contact Administration</h2>
 </body>
 </html>
