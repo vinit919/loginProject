@@ -16,7 +16,7 @@ public class SignUpController {
 	public SignUpDTO convertTosignUPDTO(SignUpVO vo) throws Exception{
 		SignUpDTO dto=new SignUpDTO();
 		try {
-			logger.info("Sign VO Data:"+vo.toString());
+			logger.info(" Sign VO Data:"+vo.toString());
 			BeanUtils.copyProperties(dto,vo);
 			logger.info("Sign DTO Data:"+dto.toString());
 		} catch (IllegalAccessException | InvocationTargetException e) {
